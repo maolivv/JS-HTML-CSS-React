@@ -1,2 +1,2 @@
-# JS-HTML-CSS-React
-Repositório para acompanhamento do meu desenvolvimento em front-end
+# FRONT-END JOURNEY
+Repositório criado para acompanhar minha evolução com as tecnologias front-end.
