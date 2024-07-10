@@ -1,0 +1,84 @@
+/* box-sizing: border-box => o componente perde o comportamento do padding fazer parte do tamanho total dele*/
+
+body{
+    margin: 0px;
+    
+}
+#container{
+    position: relative;
+    background-color: azure;
+    
+}
+#barra-de-navegacao{
+    background-color: rgba(26, 201, 201, 0.411);
+    border: 20px;
+    padding: 10px;
+}
+#frase-efeito{
+    display: inline;
+    font-style: oblique;
+    font-family: fantasy;
+    text-align: center;
+    margin: 500px;
+}
+header{
+    background-image: url(images/waterr.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px;
+    
+
+}
+ul{
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+img{
+    margin-left: none;
+    margin-right: 15px;
+    border-radius: 70px;
+}
+
+li{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    width: auto;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+li a{
+        color: black;
+        padding: 0.5em 1.5em 0.5em 1.5em;
+}
+li a:link{
+    text-decoration: none;
+}
+li a:hover, .selecionado a{
+    background-color: rgba(128, 128, 128, 0.555);
+    cursor: pointer;
+}
+li a:active{
+    background-color: black;
+    color: white;
+}
+
+main{
+   width: 300px;
+   height: 800px;
+   background-color: rgba(128, 128, 128, 0.329);
+   
+}
+#barra-lateral{
+    width: 100%;
+}
+td{
+    padding: 2px;
+    font-size: 22px;
+    border-style: double;
+}

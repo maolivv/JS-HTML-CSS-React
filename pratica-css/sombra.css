@@ -1,0 +1,7 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    text-shadow: 20px 20px 3px; /* horizontal, vertical, blurr, cor */
+    box-shadow: 20px 20px 3px rgba(0, 0, 0, 0.3);
+}

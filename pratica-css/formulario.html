@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <form action="">
+        Nome:
+        <input type="text" name="" id=""> <br><br>
+        Email:
+        <input type="email" name="" id=""> <br><br>
+        Sexo:
+        <input type="radio" name="genero" id="" value="M">Masculino
+        <input type="radio" name="genero" id="" value="F">Feminino <br><br>
+        Estado:
+        <select name="estados" id="">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="PR">Paraná</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+        <br><br> Senha:
+        <input type="password" name="senha" id=""> <br><br>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nomeCompleto">Nome completo:</label> <input type="text" name="nomeCompleto" id="nomeCompleto" required> <br><br>
+            <label for="nomePai">Nome do pai:</label> <input type="text" name="nomePai" id="nomePai" required> <br><br>
+            <label for="nomeMae">Nome da mãe:</label> <input type="text" name="nomeMae" id="nomeMae" required> <br><br>
+            <label for="nascimento">Data de nascimento:</label> <input type="date" name="nascimento" id="nascimento" required>
+        </fieldset>
+
+        <br><input type="submit" value="Concluir">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@keyframes animacao-caixa{
+        from{
+                background: black;
+                border-radius: 0px;
+                left: 0px;
+                top: 0px;
+        }
+
+        to{
+            background: yellow;
+            border-radius: 200px;
+            left: 100px;
+            top: 100px;
+        }
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    background: red;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction:alternate;
+}
+
+div:hover{
+    animation-play-state: paused ;
+}
+
+div:active{
+
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+h1{
+    padding-top: 150px;
+}
