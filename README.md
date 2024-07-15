@@ -1,2 +1,2 @@
-# FRONT-END JOURNEY
+# FULLSTACK JOURNEY
 Repositório criado para acompanhar minha evolução com as tecnologias fullstack do Javascript.
